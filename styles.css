@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 50px;
+}
+
+.container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.drawn {
+    background-color: black;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-button {
+    font-size: 32px;
+    margin: 50px;
+    padding: 5px 10px;
+    
+}
